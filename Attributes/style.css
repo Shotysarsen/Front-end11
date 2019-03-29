@@ -1,0 +1,36 @@
+body {
+background-color: grey;
+}
+.container {
+	text-align: center;
+}
+h1 {
+	width: 100px;
+    background-color: yellow;
+	color: purple;
+}
+h2 {color: blue;
+}
+h3 {
+	color: yellow;
+}
+#h1_1{
+	color: green;
+}
+#h1_2{
+	color: orange;
+}
+.block {
+	display: inline-block;
+	margin-top: 100px; 
+}
+.block img {
+	width:200px;
+	height:200px;
+}
+.block p {
+	background-color: orange;
+	padding: 20px 40px;
+    margin-top: 40px;
+    border: 3px solid red;
+}
