@@ -1,0 +1,35 @@
+body {
+background-color: yellow;
+background-image: url("tourism/fon.jpg");
+background-size: 300px 300px;
+background-repeat: no-repeat;
+background-position:right top;
+background-attachment: fixed ;	
+}
+p {
+	width: 200px;
+	height: 50px;
+    background-color: green;
+	
+}
+h1 {color: purple;
+}
+p {
+	color: white;
+}
+.content-1 {
+	background-color: rgba(100,255,255,.2);
+	position: margin-bottom;
+}
+#heading {
+	color: white;
+	position: margin-bottom;
+	text-align: center;
+}
+#para {
+	position: margin-bottom;
+	text-align: center;
+	color: green;
+
+}
+
