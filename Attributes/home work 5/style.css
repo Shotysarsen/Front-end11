@@ -1,0 +1,25 @@
+a:link {
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	padding: 20px;
+}
+a:active {
+	color: yellow;
+	background-color: blue;
+}
+a:visited {
+	background-color: grey;
+	color: black;
+}
+a:hover {
+	color: white;
+	background-color: purple;
+	font-size: 28px;
+}
+p:hover {
+	font-size: 40px;
+}
+h1:hover {
+	font-size: 40px;
+}
