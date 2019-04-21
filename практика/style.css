@@ -1,0 +1,77 @@
+body {
+	background-size: 300px 300px;
+    background: url("https://img1.goodfon.ru/original/1920x1080/f/cd/nebo-okean-zakat.jpg") fixed left top no-repeat;
+}
+.container {
+	text-align: center;
+}
+#para_1 {
+	font-size: 40px;
+}
+h1 {
+	color: white ;
+}
+p {
+	color: indigo; size: 80px;
+}
+.block {
+	display: inline-block;
+	margin-top: 100px; 
+}
+.block img {
+	width:200px;
+	height:200px;
+}
+.block p {
+	background-color: yellow;
+	padding: 20px 40px;
+    margin-top: 40px;
+    border: 3px solid brown;
+}
+.content-3 {
+	background-color: rgba(100,255,255,.2);
+}
+#navigation {
+	list-style-type: none;
+	border: 2px solid #000;
+	border-radius: 20px 5px;
+	text-align: center;
+	background-color:#00FFFF;
+	font-size: 16px;
+	height: 30px;
+	padding-left:25px;
+}
+#navigation li {
+	width: 220px;
+	display: inline-block;
+	margin-right: 100px;
+}
+#navigation li ul{
+	display: none;
+	background-color: #00FFFF;
+	position: absolute;
+	top: 100%;
+}
+#navigation li a{
+	display: block;
+	padding: 6px;
+	width: 100%;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+#navigation ul li{float: none;}
+#navigation li:hover {background-color: #f90;}
+#navigation li:hover ul{display: block; width: 100%;}
+#navigation li ul {
+	background-color: #f90;
+}
+#navigation, #navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#navigation li{
+	position: relative;
+}
+#navigation {height: 30px;}
